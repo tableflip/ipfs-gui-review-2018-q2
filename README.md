@@ -15,4 +15,4 @@ npm start
 open http://localhost:1234
 ```
 
-Use the <kbd>arrow<kbd> keys or <kbd>spacebar</kbd> to change slide.
+Use the <kbd>arrow</kbd> keys or <kbd>spacebar</kbd> to change slide.
