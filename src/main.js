@@ -3,13 +3,13 @@
 
 const nodeList = document.querySelectorAll('section')
 const nodes = [].slice.call(nodeList)
-const addId = (node, index) => node.id = index
+const addId = (node, index) => { node.id = index }
 
 nodes.map(addId)
 
 const getHashIndex = () => {
   const hash = document.location.hash
-  const indexStr = hash ? hash.substring(1) : "0"
+  const indexStr = hash ? hash.substring(1) : '0'
   return Number(indexStr)
 }
 
