@@ -1,0 +1,21 @@
+{
+  "name": "ipfs-gui-review-2018-q2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "test": "standard"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^1.9.3",
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "ipfs-css": "^0.5.2",
+    "tachyons": "^4.10.0"
+  }
+}
